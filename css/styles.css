@@ -1,0 +1,341 @@
+:root {
+   --cloud: #f4f4fd;
+   --cornflower: #e7e9fc;
+   --iris: #4d5ae5;
+   --navyblue: #2E2F42;
+   --ocean: #404BBF;
+   --slate: #434455;
+   --white: #FFFFFF;
+}
+body {
+   font-family: "Roboto", sans-serif;
+   list-style-type: none;
+   color: var(--slate);
+   background-color: var(--white);
+}
+.header__nav {
+   list-style-type: none;
+}
+.link__rows a:hover {
+   color: var(--ocean);
+}
+.link__rows a:focus {
+   color: var(--ocean);
+}
+.link {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 800;
+   color: var(--navyblue);
+   line-height: 1.17;
+   line-height: 0.03em;
+   font-size: 18px;
+   font-family: "Raleway", sans-serif;
+}
+.link span {
+   color: var(--iris);
+}
+
+.header__categories {
+   list-style-type: none;
+
+}
+.header__contacts {
+   font-style: normal;
+
+}
+.list a {
+   color: var(--slate);
+}
+.link__rows.link {
+   color: var(--navyblue);
+   font-size: 16px;
+   letter-spacing: 0.32px;
+   font-weight: 500;
+}
+.header__categories a {
+}
+
+.list.link {
+   font-family: "Roboto", sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   font-style: normal;
+   list-style-type: none;
+   list-style: none; 
+   text-transform: none;
+}
+.list.link a {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+}
+.list a {
+   text-decoration: none;
+   letter-spacing: 0.32px;
+}
+.main {
+   background-color: #2E2F42;
+}
+.main__title {
+   color: #fff;
+   font-size: 56px;
+   font-weight: 700;
+   letter-spacing: 1.12px;
+   line-height: 1.07;
+   text-align: center;
+}
+.main__button {
+   font-family: "Roboto", sans-serif;
+   color: #fff;
+   background-color: #4D5AE5;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.64px;
+   cursor: pointer;
+}
+.main__button:hover {
+   background-color: var(--ocean);
+}
+.main__button:focus {
+   background-color: var(--ocean);
+}
+.list__items {
+   list-style-type: none;
+   letter-spacing: 0.24px;
+}
+
+.list__title {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: var(--navyblue);
+}
+.list__descr {
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--slate);
+}
+
+.what__title {
+   font-size: 36px;
+   font-weight: 700;
+   letter-spacing: 0.02em;
+   color: var(--navyblue);
+   text-transform: capitalize;
+   text-align: center;
+   line-height: 1.11;
+}
+.what li {
+   list-style-type: none;
+}
+.team {
+   background-color: #F4F4FD;
+}
+.team__title {
+   text-align: center;
+   font-size: 36px;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: var(--navyblue);
+}
+.team li {
+   list-style-type: none;
+}
+.team__item {
+   background-color: #fff;
+   text-align: center;
+}
+.footer {
+   color: #fff;
+   background-color: #2E2F42;
+}
+
+.link {
+   font-family: "Raleway", sans-serif;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 800;
+   color: var(--iris);
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   font-size: 18px;
+}
+.footer__text {
+   color: var(--cloud);
+}
+
+
+.footer__descr {
+   line-height: 1.5;
+   color: var(--cloud);
+   letter-spacing: 0.02em;
+}
+
+/* Portfolio HMTL */
+.header__categories a:hover {
+   color: var(--navyblue);
+}
+.link {
+   font-family: "Raleway", sans-serif;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   color: var(--iris);
+   text-decoration: none;
+}
+.link span {
+   color: var(--navyblue);
+}
+.header_nav ul {
+   text-decoration: none;
+}
+.header_nav a {
+   text-decoration: none;
+}
+.span {
+   color: var(--cloud);
+}
+.footer__text {
+   color: var(--cloud);
+}
+
+.list {
+   list-style-type: none;
+   text-decoration: none;
+   list-style:none;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--navyblue)
+}
+.list a:hover {
+   color: var(--ocean);
+}
+.list a:focus {
+   color: var(--ocean);
+}
+.list__block {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--navyblue);
+}
+.list__text {
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--navyblue);
+}
+.list__text span {
+   color: var(--navyblue);
+}
+
+address {
+   font-style: none;
+}
+address a:hover {
+   color: var(--ocean);
+}
+address a:focus {
+   color: var(--ocean);
+}
+
+.list_link {
+   text-decoration: none;
+   color: #434455;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+}
+.list__block a:hover {
+   color: var(--ocean);
+}
+.categories ul {
+   list-style-type: none;
+}
+.header__categories a:hover {
+   color: var(--ocean);
+}
+.header__categories a:focus {
+   color: var(--ocean);
+}
+.categories {
+
+}
+
+.categories__btn {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   font-size: 16px;
+   color: #4D5AE5;
+   background-color: #F4F4FD;
+   text-align: center;
+   border: none;
+   cursor: pointer
+}
+
+.categories__btn:hover {
+   background-color: #404BBF;
+   color: #ffffff;
+}
+.categories__btn:focus {
+   background-color: #404BBF;
+   color: #ffffff;
+}
+.list ul {
+   list-style-type: none;
+}
+.list__item {
+   border: 1px solid #E7E9FC;
+}
+.link__title {
+   font-family: "Roboto", sans-serif;
+   text-transform: capitalize;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: var(--navyblue);
+}
+.link__descr {
+   font-family: "Roboto", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   text-transform: none;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--slate);
+}
+.footer__logo {
+   font-family: "Raleway",sans-serif;
+   font-weight: 800;
+}
+.footer__link.link {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 800;
+   color: var(--iris);
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   font-size: 18px;
+   font-family: "Raleway", sans-serif;
+}
+.footer__link span {
+   color: var(--cloud);
+}
+.rows.link {
+   font-family: "Roboto", sans-serif;
+   text-transform: none;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.5;
+   color: var(--navyblue);
+}
