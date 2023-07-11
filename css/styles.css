@@ -525,6 +525,7 @@ address a:focus {
    flex-shrink: 0;
    flex-wrap: wrap;
    column-gap: 24px;
+   row-gap: 48px;
 }
 
 .section.categories .link {
@@ -537,7 +538,6 @@ address a:focus {
    margin-bottom: 8px;
 }
 .link__descr {
-   padding-bottom: 32px;
 }
 .link__border {
    border-bottom: 1px solid var(--cornflower);
