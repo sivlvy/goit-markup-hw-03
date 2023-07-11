@@ -1,6 +1,7 @@
 .container {
    max-width: 1158px;
    margin: 0 156px;
+   padding: 0 15px;
 }
 :root {
    --cloud: #f4f4fd;
@@ -52,7 +53,7 @@ body {
    align-items: center;
    gap: 332px;
    padding: 24px 0;
-   border-bottom: 1px solid #e7e9fc;
+   border-bottom: 1px solid var(--cornflower);
    margin: 0 auto;
 }
 .header__nav .list {
@@ -91,6 +92,9 @@ body {
 .rows.link {
    margin-right: 0;
    padding: 24px 0;
+}
+.section.list {
+   padding: 120px 0;
 }
 .link {
    text-transform: uppercase;
@@ -197,17 +201,22 @@ body {
 }
 
 
-.section.list {
-   padding-top: 120px;
-}
+
 .section.list .list .item {
    flex-direction: column;
+   width: calc((100% - 72px) / 4);
 }
 .section.list .list {
    display: flex;
    column-gap: 24px;
    flex-direction: row;
    justify-content: space-between;
+}
+.section.list .list .item {
+   margin-right: 24px;
+}
+.section.list .list .item:last-child {
+   margin-right: 0;
 }
 .section.what .list {
    display: flex;
@@ -238,7 +247,6 @@ body {
 }
 
 .section.what {
-   margin-top: 120px;
    padding-bottom: 120px;
 }
 .what__title {
@@ -277,7 +285,7 @@ body {
 }
 .section.team .list {
    display: flex;
-   column-gap: 24px;
+   gap: 24px;
 }
 .list__descr {
    text-align: center;
@@ -445,12 +453,12 @@ address a:focus {
 .categories__btn:hover {
    background-color: #404BBF;
    color: #ffffff;
-   border: 1px solid transparent
+   border: 1px solid transparent;
 }
 .categories__btn:focus {
    background-color: #404BBF;
    color: #ffffff;
-   border: 1px solid transparent
+   border: 1px solid transparent;
 }
 .list ul {
    list-style-type: none;
