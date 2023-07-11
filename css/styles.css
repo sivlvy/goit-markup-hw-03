@@ -46,7 +46,9 @@ body {
    color: var(--slate);
    background-color: var(--white);
 }
-
+.header {
+   border-bottom: 1px solid #e7e9fc;
+}
 .header .container {
    display: flex;
    justify-content: space-between;
@@ -55,6 +57,7 @@ body {
    padding: 24px 0;
    border-bottom: 1px solid var(--cornflower);
    margin: 0 auto;
+   
 }
 .header__nav .list {
    list-style-type: none;
