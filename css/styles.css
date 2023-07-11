@@ -542,6 +542,9 @@ address a:focus {
 .section.categories .categories__btn:hover {
    border: 1px solid transparent;
 }
+.section.categories .categories__btn:focus {
+   border: 1px solid transparent;
+}
 .section.categories .list.second {
    display: flex;
    flex-shrink: 0;
