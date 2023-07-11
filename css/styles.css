@@ -52,14 +52,15 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   gap: 332px;
-   padding: 24px 0;
+   margin-right: 332px;
    border-bottom: 1px solid var(--cornflower);
    margin: 0 auto;
-   padding-left: 15px;
-   padding-right: 15px;
+   padding: 0 15px;
    
 }
+.header__contacts {
+}
+
 .header__nav .list {
    list-style-type: none;
    display: flex;
@@ -71,8 +72,11 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   padding-top: 24px;
+   padding-bottom: 24px;
    /* gap: 76px; */
 }
+
 .header__contacts .list {
    display: flex;
    justify-content: space-between;
@@ -95,7 +99,7 @@ body {
 }
 .rows.link {
    margin-right: 0;
-   padding: 24px 0;
+   /* padding: 24px 0; */
 }
 .section.list {
    padding: 120px 0;
