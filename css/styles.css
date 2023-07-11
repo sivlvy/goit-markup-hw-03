@@ -72,8 +72,6 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding-top: 24px;
-   padding-bottom: 24px;
    /* gap: 76px; */
 }
 
@@ -87,6 +85,8 @@ body {
 }
 .list__block.link {
    margin-right: 0;
+   padding-top: 24px;
+   padding-bottom: 24px;
 }
 .link__rows {
    margin-right: 0;
