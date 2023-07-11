@@ -210,8 +210,11 @@ body {
 
 
 
-
-.section.list .list {
+.section .container .list {
+   display: flex;
+   gap: 24px;
+}
+/* .section.list .list {
    display: flex;
    column-gap: 24px;
    flex-direction: row;
@@ -221,15 +224,19 @@ body {
    display: flex;
    margin-right: 24px;
    flex-direction: column;
-   width: 264px;
+   width: calc((100% - 72px) / 4);
    gap: 8px;
    align-items:start;
-}
+} */
 .section.list .list .item:last-child {
    margin-right: 0;
 }
 .list .item {
-   width: 264px;
+   display: flex;
+   width: calc((100% - 72px) / 4);
+   flex-direction: column;
+   gap: 8px;
+   align-items: start;
 }
 .section.what .list {
    display: flex;
