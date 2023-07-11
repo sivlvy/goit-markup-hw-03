@@ -218,9 +218,12 @@ body {
    justify-content: space-between;
 }
 .section.list .list .item {
+   display: flex;
    margin-right: 24px;
    flex-direction: column;
-   width: calc((100% - 72px) / 4);
+   width: 264px;
+   gap: 8px;
+   align-items:start;
 }
 .section.list .list .item:last-child {
    margin-right: 0;
