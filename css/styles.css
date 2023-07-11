@@ -518,6 +518,7 @@ address a:focus {
    font-weight: 500;
    line-height: 1.5;
    color: var(--navyblue);
+   padding: 24px 0;
 }
 .section.categories {
    padding-top: 96px;
