@@ -1,6 +1,7 @@
 .container {
    max-width: 1158px;
-   margin: 0 156px;
+   margin: 0 auto;
+   padding: 0 15px;
 }
 :root {
    --cloud: #f4f4fd;
@@ -46,14 +47,13 @@ body {
    background-color: var(--white);
 }
 .header {
-   border-bottom: 1px solid #e7e9fc;
+   border-bottom: 1px solid var(--cornflower);
 }
 .header .container {
    display: flex;
    justify-content: space-between;
    align-items: center;
    margin-right: 332px;
-   border-bottom: 1px solid var(--cornflower);
    margin: 0 auto;
    padding: 0 15px;
    
@@ -153,6 +153,7 @@ body {
    list-style-type: none;
    list-style: none; 
    text-transform: none;
+   font-weight: 400;
 }
 .list.link a {
    font-size: 16px;
@@ -176,7 +177,7 @@ body {
    display: block;
    max-width: 496px;
    margin: 0 auto;
-   padding-bottom: 48px;
+   margin-bottom: 48px;
 }
 .main__button {
    font-family: "Roboto", sans-serif;
@@ -212,7 +213,8 @@ body {
 
 .section .container .list {
    display: flex;
-   gap: 24px;
+   column-gap: 24px;
+   row-gap: 8px;
 }
 /* .section.list .list {
    display: flex;
@@ -264,6 +266,8 @@ body {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--slate);
+   font-weight: 400;
+   text-align: left;
 }
 
 .section.what {
@@ -307,9 +311,7 @@ body {
    display: flex;
    gap: 24px;
 }
-.list__descr {
-   text-align: center;
-}
+
 .list__title {
    text-align: center;
    margin: 0 auto 8px auto;
@@ -333,14 +335,13 @@ body {
    color: #fff;
    background-color: #2E2F42;
    height: 312px;
-   display: flex;
+   /* display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: center; */
    padding: 100px 0;
 }
 
 .footer__descr {
-   padding-top: 7.5px;
    width: 264px;
 }
 .link {
@@ -584,3 +585,4 @@ address a:focus {
 .list .width {
    width: calc((100% - 48px) / 3);
 }
+
